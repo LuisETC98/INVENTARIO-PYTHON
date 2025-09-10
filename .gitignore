@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos de SQLite (para no subir db local)
+*.db
+*.sqlite
+*.sqlite3
+
+# Reportes generados
+reporte_inventario.csv
+
+# Archivos de IDE / SO
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Archivos compilados / caches de testing
+.coverage
+htmlcov/
+.pytest_cache/
+

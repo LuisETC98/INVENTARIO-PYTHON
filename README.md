@@ -13,3 +13,11 @@ Los datos se guardan en una base de datos local `inventario.db` (SQLite).
 ---
 
 ## Estructura del proyecto
+inventario/
+├── main.py # Menú principal (interfaz por consola)
+├── db.py # Conexión e inicialización de la base de datos
+├── crud.py # Funciones CRUD (agregar, listar, actualizar, eliminar)
+├── utils.py # Funciones auxiliares (ej: generar reportes CSV)
+├── inventario.db # Base de datos SQLite (se crea al ejecutar)
+├── .gitignore
+└── README.md
